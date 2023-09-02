@@ -38,5 +38,5 @@ jobs:
       #     python -m pip install --upgrade pip
       #     pip install -r ../requirements.txt
 
-      - name: Test App Code
+      - name: Testing Code
         run: python ./main_test.py
