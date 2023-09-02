@@ -1,4 +1,4 @@
-<!-- [![Python_Temp_Demo](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml) -->
+[![Python_Temp_Demo](https://https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml/badge.svg)][def]
 
 ## Template for Python projects
 
@@ -23,3 +23,5 @@ Things included are:
 - A base set of libraries for devops and web
 
 - `githubactions`
+
+[def]: https://https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml
