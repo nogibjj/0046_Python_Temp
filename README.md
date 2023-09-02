@@ -1,4 +1,4 @@
-[![Python_Temp_Demo](https://https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml/badge.svg)][def]
+[![Python_Temp_Demo](https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml/badge.svg)][def]
 
 ## Template for Python projects
 
@@ -24,4 +24,4 @@ Things included are:
 
 - `githubactions`
 
-[def]: https://https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml
+[def]: https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml
