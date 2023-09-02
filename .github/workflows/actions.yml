@@ -4,9 +4,9 @@ name: Python Temp Test
 #Trigger entry for both push and pull requests
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 #Specified job(s)
 jobs:
@@ -22,8 +22,8 @@ jobs:
     # Set prefered Python versions
     strategy:
       matrix:
-        python-version: [3.9, 3.10, 3.11]
-    
+        python-version: [3.9, 3.11]
+
     #Steps to define the execution of workflow
     steps:
       - uses: actions/checkout@v3
@@ -31,7 +31,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-            python-version: ${{matrix.python-version}}
+          python-version: ${{matrix.python-version}}
 
       # - name: Install dependencies
       #   run: |
