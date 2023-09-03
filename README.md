@@ -2,9 +2,7 @@
 
 ## Template for Python projects
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
-
-Things included are:
+This template is setup for future developement an may include dev options such as:
 
 - `Makefile`
 
