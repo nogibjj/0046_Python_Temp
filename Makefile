@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # set -e
 #   install:
-#  	pip install --upgrade pip &&\
-#   		pip install -r requirements.txt
+#  	python -m pip install --upgrade pip
+#          pip install -r requirements.txt
 
 #  test:
 #  	 python ./test_main.py
