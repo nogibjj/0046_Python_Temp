@@ -3,7 +3,7 @@ import unittest
 import pandas as pd
 from pandas.testing import assert_frame_equal
 
-df = read_csv()
+df = pd.read_csv("../dsets/automobiles.csv")
 
 class TestMain(unittest.TestCase):
     # def test_return_backwards_string(self):
