@@ -5,7 +5,7 @@
 The current implementation of the Mini-project can be executed as follows:
 
 1. All dependencies needed for execution can be found in the requirement.txt file
-2. These dependencies can be installed  by github actions(please see yml file for further details) using the Make file.
+2. These dependencies will be installed  by github actions(please see yml file for further details).
 3. In addition to this, and still using the Make file, a testing sequence would be executed by github actions.
 4. Please refer the Make file for testing path in case of manual executions. 
 
@@ -20,5 +20,7 @@ Testing...
 1. A simple unit test implementation is provided in myapp/test_main.py as follows:
     - test_col_exist function --> test if a new column exist after calling mpg_cat function on a dataframe
     - test_my_stats --> uses pandas's assert_frame_equal testing feature to confirm the quality of two dataframes
+2. This test is meant to be run by github actions
+3. In order to run it locally, kindly replace the df read path to [df = pd.read_csv("./dsets/automobiles.csv")]
 
 [def]: https://github.com/nogibjj/oo46_Python_Temp/actions/workflows/actions.yml
