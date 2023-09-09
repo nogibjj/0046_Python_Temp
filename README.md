@@ -19,7 +19,7 @@ Testing...
 1. A simple unit test implementation is provided in myapp/test_main.py as follows:
     - test_col_exist function --> test if a new column exist after calling mpg_cat function on a dataframe
     - test_my_stats --> uses pandas's assert_frame_equal testing feature to confirm the quality of two dataframes
-2. This test is meant to be run by github actions
-3. In order to run the test locally, kindly replace the df read path with [df = pd.read_csv("./dsets/automobiles.csv")]
+2. This test wll also be executed by github actions
+
 
 [def]: https://github.com/nogibjj/oo46_Python_Temp/actions/workflows/actions.yml

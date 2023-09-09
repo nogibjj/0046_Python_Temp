@@ -5,7 +5,10 @@
 # if __name__ == '__main__':
 #   print(return_backwards_string(my_ran_string))
 import pandas as pd
-
+def read_csv():
+    df = pd.read_csv("./dsets/automobiles.csv")
+    return df
+    pass
 def mpg_cat(mpg):
     if mpg < 15:
         return ("Low")
@@ -19,7 +22,7 @@ def my_stats(df):
     pass
 
 if __name__ == "__main__":
-    df = pd.read_csv("./dsets/automobiles.csv")
+    df = read_csv()
     print('Descriptive Analysis of the Automobiles Dataset:')
     print(my_stats(df))
     df['Fuel Efficiency'] = df.loc[:,'mpg'].apply(mpg_cat)
