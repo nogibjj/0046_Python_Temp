@@ -34,7 +34,7 @@ jobs:
         with:
           python-version: 3.11
 
-    #install dependencies using the make file
+      #install dependencies using the make file
       # - name: Install dependencies
       #   run: |
       #     make install
@@ -42,5 +42,4 @@ jobs:
       #   run: |
       #     make lint
       - name: Testing Code
-        run: |
-          make test
+        run: python ./test_main.py
