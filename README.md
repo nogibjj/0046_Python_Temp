@@ -1,25 +1,24 @@
-[![Python_Temp_Demo](https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml/badge.svg)][def]
+[![Python_Temp_Demo](https://github.com/nogibjj/oo46_Python_Temp/actions/workflows/actions.yml/badge.svg)][def]
 
 ## Template for Python projects
 
-This template is setup for future developement an may include dev options such as:
+The current implementation of the Mini-project can be executed as follows:
 
-- `Makefile`
+1. All dependencies needed for execution can be found in the requirement.txt file
+2. These dependencies can be installed  by github actions(please see yml file for further details) using the Make file.
+3. In addition to this, and still using the Make file, a testing sequence would be executed by github actions.
+4. Please refer the Make file for testing path in case of manual executions. 
 
-- `Pytest`
+Main project deliverables:
+1. The myapp/main.py file can be thought of as the main app entry in the current implementation
+2. It imports pandas and reads a csv file from the dsets folder and performs the following:
+    - displays a descriptive analysis of the input file by calling my_stats() with the input file as arguement
+    - applys mpg_cat() function on mpg col of the input file and the result is added into a new col named Fuel Efficiency
+    - It then displays some selected records from the updated dataframe
 
-- `pandas`
+Testing...
+1. A simple unit test implementation is provided in myapp/test_main.py as follows:
+    - test_col_exist function --> test if a new column exist after calling mpg_cat function on a dataframe
+    - test_my_stats --> uses pandas's assert_frame_equal testing feature to confirm the quality of two dataframes
 
-- `Pylint`
-
-- `Dockerfile`
-
-- `GitHub copilot`
-
-- `jupyter` and `ipython`
-
-- A base set of libraries for devops and web
-
-- `githubactions`
-
-[def]: https://github.com/Ofosu-Osei/IDS_706_Python_Temp/actions/workflows/actions.yml
+[def]: https://github.com/nogibjj/oo46_Python_Temp/actions/workflows/actions.yml
