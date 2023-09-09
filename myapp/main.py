@@ -20,8 +20,12 @@ def my_stats(df):
 
 if __name__ == "__main__":
     df = pd.read_csv("./dsets/automobiles.csv")
+    print('Descriptive Analysis of the Automobiles Dataset:')
     print(my_stats(df))
     df['Fuel Efficiency'] = df.loc[:,'mpg'].apply(mpg_cat)
+    print('\n-----------------------------------------------\n')
+    print('A segment of an insightful info about the Automobile Dataset:')
     print(df.iloc[20:41,:]) 
     #print(df.sort_values('yr', ascending = False).head(20))
+   
     
