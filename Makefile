@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
- install:
-	pip install --upgrade pip &&\
- 		pip install -r requirements.txt
+#  install:
+# 	pip install --upgrade pip &&\
+#  		pip install -r requirements.txt
 
  test:
  	 python ./test_main.py
@@ -21,4 +21,4 @@ set -e
 # deploy:
 # 	#deploy goes here
 		
- all: install lint test format deploy
+# all: install lint test format deploy

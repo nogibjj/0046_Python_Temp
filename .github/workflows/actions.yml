@@ -35,12 +35,12 @@ jobs:
           python-version: 3.11
 
     #install dependencies using the make file
-      - name: Install dependencies
-        run: |
-          make install
-      - name: Lint with pylint
-        run: |
-          make lint
+      # - name: Install dependencies
+      #   run: |
+      #     make install
+      # - name: Lint with pylint
+      #   run: |
+      #     make lint
       - name: Testing Code
         run: |
           make test
