@@ -1,9 +1,11 @@
-from main import mpg_cat, my_stats, read_csv
+from scripts import mpg_cat, my_stats, read_csv
 import unittest
 import pandas as pd
 from pandas.testing import assert_frame_equal
 
 df = pd.read_csv("../dsets/automobiles.csv")
+#
+#df = read_csv()
 
 class TestMain(unittest.TestCase):
     # def test_return_backwards_string(self):

@@ -10,10 +10,13 @@ The current implementation of the Mini-project can be executed as follows:
 
 Mini-project deliverables:
 1. The myapp/main.py file can be thought of as the main app entry in the current implementation
-2. It imports pandas and reads a csv file from the dsets folder and performs the following:
-    - displays a descriptive analysis of the input file by calling my_stats() with the input file as arguement
-    - applys mpg_cat() function on mpg col of the input file and the result is added into a new col named Fuel Efficiency
-    - It then displays some selected records from the updated dataframe
+2. It imports several libraries to reads a csv file from the dsets folder and performs the following:
+    - Creates and saves both a descriptive analysis and a distribution pie chart from the input file
+        - the output is then saved in the reports folder as a pdf file (Automobiles_Descriptive_Stats.pdf)
+    - It applys mpg_cat() function on mpg col of the input file and writes the results in an excell sheet
+        - the output of this process is also saved in the reports folder under the name: automobiles_updated.xlsx
+   
+    - It then alerts the user with a success message
 
 Testing...
 1. A simple unit test implementation is provided in myapp/test_main.py as follows:
