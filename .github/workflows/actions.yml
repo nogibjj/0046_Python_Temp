@@ -16,16 +16,16 @@ jobs:
     #Operating system or environment for exectution
     runs-on: ubuntu-latest
 
-    #Set default working directory
-    defaults:
-      run:
-        working-directory: ./myapp/
-    # Set prefered Python versions
-    # strategy:
-    #   matrix:
-    #     python-version: [3.9, 3.11]
+    # #Set default working directory
+    # defaults:
+    #   run:
+    #     working-directory: ./myapp/
+    # # Set prefered Python versions
+    # # strategy:
+    # #   matrix:
+    # #     python-version: [3.9, 3.11]
 
-    #Steps to define the execution of workflow
+    # #Steps to define the execution of workflow
     steps:
       - uses: actions/checkout@v3
 
@@ -43,4 +43,4 @@ jobs:
       #- name: Lint with pylint
 
       - name: Testing Code
-        run: python ./test_main.py
+        run: python ../myapp/test_main.py
