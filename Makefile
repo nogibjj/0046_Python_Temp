@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # set -e
-#   install:
-#  	python -m pip install --upgrade pip
-#          pip install -r requirements.txt
+  install:
+  	python -m pip install --upgrade pip
+	  pip install -r requirements.txt
 
-#  test:
-#  	 python ./test_main.py
+  test:
+  	python ./test_main.py
 
-#  format:	
-#  	black *.py 
+ format:	
+  	black *.py 
 
 #  lint:
 #  	pylint --disable=R,C --ignore-patterns=test_.*?py *.py myapp/*.py
