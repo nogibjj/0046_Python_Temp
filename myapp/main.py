@@ -8,7 +8,7 @@ if __name__ == "__main__":
     d_stats = my_stats(df)
     # prepare the new dataframe for futher processing
     d_stats.index.name = "stats"
-    d_stats.round(3)
+    d_stats = d_stats.round(3)
 
     # Set pdf filename and path
     rep = PdfPages("./reports/Automobiles_Descriptive_Stats.pdf")
